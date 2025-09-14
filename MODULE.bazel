@@ -1,0 +1,8 @@
+module(
+    name = "dentist_concurrency_demo",
+    version = "0.0.1",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "rules_kotlin", version = "2.1.9")
+bazel_dep(name = "rules_java", version = "8.15.2")
