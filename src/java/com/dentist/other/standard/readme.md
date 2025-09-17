@@ -10,9 +10,9 @@ Each document type contains different data from different sources, so each docum
 ## Get IDs to Query
 First, we query TWO different data sources to figure out WHICH documents to fetch.
 
-`A` is a relational database, and returns a `List<DocumentId, Type>` that we should populate.
+`A` is a relational database, and returns a `List<DocumentId, Color>` that we should populate.
 
-`B` is some other service that also returns a `List<DocumentId, Type>`.
+`B` is some other service that also returns a `List<DocumentId, Color>`.
 
 Once we have results `a` and `b`, we do some processing _(P(A,B))_ to deduplicate the lists, and then we launch flows to populate the Red, Blue, and Green documents. 
 
