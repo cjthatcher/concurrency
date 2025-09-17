@@ -3,7 +3,7 @@ package com.dentist.other.standard;
 import java.util.stream.Collectors;
 import java.util.List;
 
-class StandardRequests {
+public class StandardRequests {
 
     // The standard flow is going to look something like a simplified Frap dashboard flow.
 
@@ -18,12 +18,12 @@ class StandardRequests {
     // Combine all the doc types into a big old list of "Document" for returns.
 
 
-    public List<DocumentId> getAvailableIdsFromSourceA() {
+    public static List<DocumentId> getAvailableIdsFromSourceA() {
         // sleep the configured time
         // fail if appropriate
 
         return java.util.Arrays.stream(names).map(name -> new DocumentId(name, DocumentColor.random())).collect(Collectors.toList());
     }
 
-    private static final String[] names = {"Tiger","Crab","Ant-Eater","Skeptic","Cryptid","Frightening","Carbohydrate"};
+    private static final String[] names = {"Tiger","Crab","Ant-Eater","Skeptic","Cryptid","Frightening","Carbohydrate","Nikola Jokic"};
 }

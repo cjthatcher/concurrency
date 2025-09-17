@@ -1,3 +1,3 @@
 package com.dentist.other.standard;
 
-record DocumentId(String id, DocumentColor color){}
+public record DocumentId(String id, DocumentColor color){}
