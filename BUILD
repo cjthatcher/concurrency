@@ -8,7 +8,7 @@ package(default_visibility = ["//visibility:public"])
 
 java_library(
     name="concurrency",
-    runtime_deps=["//src/java/com/dentist/other/standard","//src/java/com/dentist/other/thread"]
+    runtime_deps=["//src/java/com/dentist/other/standard/client","//src/java/com/dentist/other/thread"]
 )
 
 kt_jvm_library(

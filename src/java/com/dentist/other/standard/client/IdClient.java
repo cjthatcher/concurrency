@@ -1,9 +1,12 @@
-package com.dentist.other.standard;
+package com.dentist.other.standard.client;
+
+import com.dentist.other.standard.document.DocumentColor;
+import com.dentist.other.standard.document.DocumentId;
 
 import java.util.stream.Collectors;
 import java.util.List;
 
-public class StandardRequests {
+public class IdClient {
 
     // The standard flow is going to look something like a simplified Frap dashboard flow.
 

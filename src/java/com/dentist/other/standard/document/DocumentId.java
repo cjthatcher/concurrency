@@ -1,3 +1,3 @@
-package com.dentist.other.standard;
+package com.dentist.other.standard.document;
 
 public record DocumentId(String id, DocumentColor color){}

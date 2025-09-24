@@ -1,4 +1,4 @@
-package com.dentist.other.standard;
+package com.dentist.other.standard.document;
 
 import java.util.Random;
 
